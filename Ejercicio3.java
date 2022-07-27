@@ -20,9 +20,8 @@ public class Ejercicio3 {
         }
         catch (Exception er) {
             System.out.println("¡Cuidado! Debes de insertar un número entero o decimal (a través de coma).");
-            obtenerSueldo();
+            return obtenerSueldo();
         }
-        return 0.0;
     }
     
 }
